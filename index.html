@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harisree Studio - Premier Photography & Videography Studio with 20+ Years of Excellence. Wedding, Portrait, Fashion, Commercial Photography across Kerala and India.">
+    <meta name="keywords" content="photography studio, wedding photography, portrait photography, Kerala photographer, India photography studio, Harisree Studio">
+    <meta name="author" content="Harisree Studio">
+    <title>Harisree Studio | Premier Photography & Videography Studio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a1628'/%3E%3Crect x='18' y='35' width='64' height='42' rx='8' fill='none' stroke='%231e90ff' stroke-width='4'/%3E%3Ccircle cx='50' cy='56' r='14' fill='none' stroke='white' stroke-width='3.5'/%3E%3Ccircle cx='50' cy='56' r='7' fill='%231e90ff'/%3E%3Crect x='35' y='25' width='30' height='12' rx='4' fill='%231e90ff'/%3E%3Ccircle cx='70' cy='43' r='3' fill='%2300c6ff'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a1628'/%3E%3Crect x='18' y='35' width='64' height='42' rx='8' fill='none' stroke='%231e90ff' stroke-width='4'/%3E%3Ccircle cx='50' cy='56' r='14' fill='none' stroke='white' stroke-width='3.5'/%3E%3Ccircle cx='50' cy='56' r='7' fill='%231e90ff'/%3E%3Crect x='35' y='25' width='30' height='12' rx='4' fill='%231e90ff'/%3E%3Ccircle cx='70' cy='43' r='3' fill='%2300c6ff'/%3E%3C/svg%3E">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="lens-loader">
+                <div class="lens-ring"></div>
+                <div class="lens-ring"></div>
+                <div class="lens-ring"></div>
+                <div class="lens-center"></div>
+            </div>
+            <p class="preloader-text">HARISREE STUDIO</p>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fas fa-camera-retro"></i></span>
+                <span class="logo-text">HARISREE <span class="logo-accent">STUDIO</span></span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                <a href="#testimonials" class="nav-link" data-section="testimonials">Testimonials</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn-ai-assist" id="btnAiAssist" title="AI Assistant">
+                    <i class="fas fa-robot"></i>
+                    <span>AI Assistant</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+                <i class="fas fa-star"></i>
+                <span>Premium Photography & Videography</span>
+                <i class="fas fa-star"></i>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                <span class="title-line title-line-1">HARISREE</span>
+                <span class="title-line title-line-2">STUDIO</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+                Where Every Frame Tells a Timeless Story — Crafting Visual Masterpieces with 
+                <span class="highlight-text">Two Decades of Artistic Excellence</span>
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="800">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>Explore Our Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Book a Session</span>
+                    <i class="fas fa-calendar-check"></i>
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="1000">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-bg services-bg"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-camera"></i> What We Offer</span>
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-desc">From intimate portraits to grand celebrations, we bring artistry and precision to every frame. Discover our comprehensive range of professional photography and videography services.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-ring"></i></div>
+                    <h3>Wedding Shoot</h3>
+                    <p>Capturing your most precious moments with cinematic elegance. From ceremonies to receptions, every emotion preserved forever.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon"><i class="fas fa-baby"></i></div>
+                    <h3>Newborn Shoot</h3>
+                    <p>Tender, artistic portraits of your newest family member. Gentle handling and creative setups for timeless memories.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-sun"></i></div>
+                    <h3>Lifestyle Photoshoot</h3>
+                    <p>Natural, candid captures that reflect your authentic self. Real moments, genuine emotions, stunning visuals.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Maternity Shoot</h3>
+                    <p>Celebrating the beautiful journey of motherhood with grace and elegance. Artistic shots that cherish this special chapter.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Portrait Shoot</h3>
+                    <p>Professional portraits that capture your personality and essence. Perfect for personal branding and memorable keepsakes.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="service-icon"><i class="fas fa-building"></i></div>
+                    <h3>Commercial Photoshoot</h3>
+                    <p>High-impact commercial imagery that elevates your brand. Product shots, corporate events, and marketing visuals.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fas fa-house-laptop"></i></div>
+                    <h3>Studio Sittings</h3>
+                    <p>Controlled environment photography with professional lighting setups. Perfect backdrops for flawless results every time.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card featured-card" data-aos="fade-up" data-aos-delay="450">
+                    <div class="service-badge">Quick Service</div>
+                    <div class="service-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>Passport Photo in 2 Min</h3>
+                    <p>Professional passport-size photos delivered in just 2 minutes. Fast, accurate, and meets all official standards.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon"><i class="fas fa-shirt"></i></div>
+                    <h3>Fashion Shoot</h3>
+                    <p>Trendsetting fashion photography that makes a statement. Editorial quality shots for portfolios and campaigns.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="550">
+                    <div class="service-icon"><i class="fas fa-house-chimney"></i></div>
+                    <h3>House Warming</h3>
+                    <p>Document your new beginnings with stunning coverage. Every ritual, every smile, every blessing beautifully captured.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Live Event Coverage</h3>
+                    <p>Real-time, comprehensive event documentation with multiple angles. Professional streaming and photography combined.</p>
+                    <div class="service-shine"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="650">
+                    <div class="service-icon"><i class="fas fa-cake-candles"></i></div>
+                    <h3>Birthday Events</h3>
+                    <p>Making birthday celebrations unforgettable with vibrant, joyful photography that captures the magic of every age.</p>
+                    <div class="service-shine"></div>
+                </div>
+            </div>
+            <div class="services-footer" data-aos="fade-up">
+                <div class="coverage-badge glass-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Service Across Kerala & India</h4>
+                        <p>We travel wherever your story takes place. From the backwaters of Kerala to destinations across India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-bg portfolio-bg"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-film"></i> Our Work</span>
+                <h2 class="section-title">Our <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-desc">With over <strong>20+ years of experience</strong> in the industry, we have successfully completed <strong>1000+ projects</strong> across various genres. Each project reflects our commitment to excellence and artistic vision.</p>
+            </div>
+            
+            <div class="portfolio-stats-bar" data-aos="fade-up">
+                <div class="portfolio-stat glass-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span class="big-number">20+</span>
+                        <span>Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="portfolio-stat glass-card">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <span class="big-number">1000+</span>
+                        <span>Projects Delivered</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-videos-header" data-aos="fade-up">
+                <h3>Featured <span class="gradient-text">Showcase</span></h3>
+                <p>Watch our finest work across various genres</p>
+            </div>
+
+            <div class="portfolio-videos-grid" id="portfolioVideos" data-aos="fade-up">
+                <!-- Videos loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-quote-left"></i> Client Love</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+                <p class="section-desc">Don't just take our word for it. Here's what our cherished clients have to say about their experience with Harisree Studio.</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider" data-aos="fade-up">
+                <!-- Testimonials loaded dynamically -->
+            </div>
+            <div class="testimonials-nav">
+                <button class="test-nav-btn" id="testPrev"><i class="fas fa-arrow-left"></i></button>
+                <div class="test-dots" id="testDots"></div>
+                <button class="test-nav-btn" id="testNext"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Let's Connect</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-desc">Ready to bring your vision to life? Fill out the form below and let's create something extraordinary together.</p>
+            </div>
+            <div class="contact-wrapper" data-aos="fade-up">
+                <div class="contact-info glass-card">
+                    <h3>Let's Create Together</h3>
+                    <p>Have a project in mind? We'd love to hear about it. Reach out and let's discuss how we can turn your vision into stunning visual stories.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">Call Us</span>
+                                <a href="tel:+919744150856">+91 97441 50856</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contact-label">Email Us</span>
+                                <a href="mailto:studioharisree@gmail.com">studioharisree@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Visit Us</span>
+                                <span>Kerala, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100063879977051&mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/harisreephotography?igsh=MW1kZW0zcHF5dTUwZA==" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@harisreestudioambalapara3178" target="_blank" rel="noopener noreferrer" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/919744150856" target="_blank" rel="noopener noreferrer" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contactForm">
+                    <input type="hidden" name="access_key" value="f4ea4b51-1356-4534-a304-e98b8df37cac">
+                    <input type="hidden" name="subject" value="New Inquiry - Harisree Studio">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Full Name *</label>
+                            <input type="text" id="contactName" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number *</label>
+                            <input type="tel" id="contactPhone" name="phone" placeholder="Your phone number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactEmail">Email Address</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type</label>
+                            <select id="projectType" name="project_type">
+                                <option value="">Select a service</option>
+                                <option value="Wedding Shoot">Wedding Shoot</option>
+                                <option value="Newborn Shoot">Newborn Shoot</option>
+                                <option value="Lifestyle Photoshoot">Lifestyle Photoshoot</option>
+                                <option value="Maternity Shoot">Maternity Shoot</option>
+                                <option value="Portrait Shoot">Portrait Shoot</option>
+                                <option value="Commercial Photoshoot">Commercial Photoshoot</option>
+                                <option value="Studio Sittings">Studio Sittings</option>
+                                <option value="Passport Photo">Passport Photo</option>
+                                <option value="Fashion Shoot">Fashion Shoot</option>
+                                <option value="House Warming">House Warming</option>
+                                <option value="Live Event Coverage">Live Event Coverage</option>
+                                <option value="Birthday Event">Birthday Event</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="budgetRange">Budget Range</label>
+                        <select id="budgetRange" name="budget_range">
+                            <option value="">Select budget range</option>
+                            <option value="Under ₹10,000">Under ₹10,000</option>
+                            <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
+                            <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
+                            <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
+                            <option value="₹1,00,000 - ₹2,50,000">₹1,00,000 - ₹2,50,000</option>
+                            <option value="Above ₹2,50,000">Above ₹2,50,000</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutProject">About Your Project</label>
+                        <textarea id="aboutProject" name="message" rows="4" placeholder="Tell us about your project, preferred dates, and any special requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="form-note"><i class="fas fa-lock"></i> Your information is secure and will never be shared.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <i class="fas fa-camera-retro"></i>
+                        <span>HARISREE <strong>STUDIO</strong></span>
+                    </a>
+                    <p>Where Every Frame Tells a Timeless Story. Premium photography and videography services with 20+ years of excellence across Kerala and India.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#hero">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <a href="#services">Wedding Shoot</a>
+                    <a href="#services">Portrait Shoot</a>
+                    <a href="#services">Fashion Shoot</a>
+                    <a href="#services">Commercial Shoot</a>
+                    <a href="#services">Live Coverage</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="tel:+919744150856"><i class="fas fa-phone"></i> +91 97441 50856</a>
+                    <a href="mailto:studioharisree@gmail.com"><i class="fas fa-envelope"></i> studioharisree@gmail.com</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Kerala, India</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Harisree Studio. All rights reserved. Crafted with <i class="fas fa-heart"></i> passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Access Popup -->
+    <div class="popup-overlay" id="adminPopup">
+        <div class="popup-card glass-card">
+            <button class="popup-close" id="popupClose"><i class="fas fa-times"></i></button>
+            <div class="popup-content">
+                <div class="popup-icon">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+                <h3>Admin Access Detected</h3>
+                <p>Would you like to access the Admin Dashboard?</p>
+                <div class="popup-actions">
+                    <a href="admin.html" class="btn btn-primary">
+                        <span>Yes, Open Dashboard</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <button class="btn btn-secondary" id="popupNo">
+                        <span>No, Go Back</span>
+                        <i class="fas fa-home"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Assistant Chatbot -->
+    <div class="ai-chatbot" id="aiChatbot">
+        <div class="chatbot-header">
+            <div class="chatbot-header-info">
+                <div class="chatbot-avatar">
+                    <i class="fas fa-robot"></i>
+                    <span class="status-dot"></span>
+                </div>
+                <div>
+                    <h4>Harisree AI Assistant</h4>
+                    <span class="chatbot-status">Online • Ready to help</span>
+                </div>
+            </div>
+            <div class="chatbot-header-actions">
+                <button class="chatbot-minimize" id="chatbotMinimize"><i class="fas fa-minus"></i></button>
+                <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <!-- Messages load here -->
+        </div>
+        <div class="chatbot-quick-actions" id="quickActions">
+            <button class="quick-btn" data-query="What services do you offer?"><i class="fas fa-camera"></i> Our Services</button>
+            <button class="quick-btn" data-query="Tell me about your pricing"><i class="fas fa-tags"></i> Pricing Info</button>
+            <button class="quick-btn" data-query="How do I book a session?"><i class="fas fa-calendar"></i> Book Session</button>
+            <button class="quick-btn" data-query="Where are you located?"><i class="fas fa-map"></i> Location</button>
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" id="chatbotInput" placeholder="Ask me anything..." autocomplete="off">
+            <button class="chatbot-send" id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Floating AI Button -->
+    <button class="ai-fab" id="aiFab" title="AI Assistant">
+        <i class="fas fa-robot"></i>
+        <span class="fab-pulse"></span>
+    </button>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Firebase SDK Setup -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script>
+        // TODO: Replace with your Firebase Project Configuration!
+        const firebaseConfig = {
+            apiKey: "AIzaSyAUqKxp1jk2Cqx7IonczS5v-afIajW3gYo",
+            authDomain: "harisree-studio.firebaseapp.com",
+            projectId: "harisree-studio",
+            storageBucket: "harisree-studio.firebasestorage.app",
+            messagingSenderId: "895588747960",
+            appId: "1:895588747960:web:ae24af7840b4ccdcbbc24d",
+            measurementId: "G-K3H5QZC49V"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
